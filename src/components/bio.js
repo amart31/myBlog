@@ -34,8 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
+              Written by <strong>{author}</strong>, I wirte about Pega, Front End technologies and whatever I find interesting at the moment. Welcome to my thoughts.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter

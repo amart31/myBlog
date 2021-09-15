@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "The Sundry Andy Martinez blog",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "A blog about Pega, front end stuff and whatever I find interesting",
   "version": "2.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Andy Martinez",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
