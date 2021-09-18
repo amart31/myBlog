@@ -27,7 +27,7 @@ function Bio() {
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
                 minWidth: 50,
-                borderRadius: `100%`,
+                borderRadius: `50%`,
               }}
               imgStyle={{
                 borderRadius: `50%`,
@@ -36,7 +36,7 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong>, I wirte about Pega, Front End technologies and whatever I find interesting at the moment. Welcome to my thoughts.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              <a target="_blank" rel="noopener noreferrer" style={{ color: `#005699` }} href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>
             </p>
@@ -49,7 +49,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/gatsby-icon.png/" }) {
+    avatar: file(absolutePath: { regex: "/favicon2.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed

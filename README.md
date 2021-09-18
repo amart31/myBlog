@@ -1,49 +1,53 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0643e551-0fef-4f57-9d3c-29d576f3e06c/deploy-status)](https://app.netlify.com/sites/gatsby-personal-starter-blog/deploys)
+[![Andy Martinez](https://andymartinez.dev)]
 
-<img alt="screenshot" src="./screenshot.gif">
+<img alt="screenshot" src="./screenshot.png">
 
-This is the search-enabled version of Gatsby Personal Starter Blog!
+This is the v01 of what will be my Personal site and blog. I will be blogging about Pega in depth concepts, tutorials, and steps by steps. I also want to work on my Front-End abilities so I'll be writing about the process of creating this Blog and other projects I start along the way. 
 
-## 🚀 Quick start
+## 🚀 Components
 
-1.  **Create a Gatsby site.**
+1.  **Landing Page**
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+    Landing Page with:
+    - Hero
+    - About Me
+    - Projects
+    - Contact
 
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/thomaswang/gatsby-personal-starter-blog
-    ```
 
-1.  **Start developing.**
+2.  **Blog**
 
-    Navigate into your new site’s directory and start it up.
+    Blog Landing Page:
+    - Search all blogs
+    - Blog post template
 
-    ```sh
-    cd my-blog-starter/
-    gatsby develop
-    ```
 
-1.  **Open the source code and start editing!**
+## 🎓 In the Works
 
-    Your site is now running at `http://localhost:8000`!
+1. Upgrade Class-components to functional compopnets where possible.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+2. Upgrade theme and style of landing page and blog
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+3. Replace static queries qith useStaticQuery hook
 
-## 🎓 Learning Gatsby
+4. Improve SEO component
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+5. Add read-time badge
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+6. Add comments to blog posts with Disqus
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+7. Create Projects Page and projects template
 
-## 📔 Learning Netlify CMS with Gatsby
 
-Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/#authenticating-with-github) in the Gatsby documentation to finish the set up for your personal Netlify CMS with authentication.
+## 📝 Reasoning
 
-## 💫 Deploy
+Added projects in ./content/projects as a .md file in order to create a separate Projects page following the blog structure in the future. For now  
+    create a projects page in src/pages
+    create a project-template in src/templates
+    add createProject func to gatsby-node.js to create pages
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
+    For projects component in landing page, image will link to project page. Links to project repo until Projects page is built. Same with project title.
+
+
+
+- **Forked from [gatsby-personal-starter-blog](https://github.com/thomaswangio/gatsby-personal-starter-blog).** 

@@ -4,7 +4,7 @@ module.exports = {
     title: `The Sundry`,
     author: `Andy Martinez`,
     description: `A personal blog where I write about Pega, configurations and workflows helpful in Pega, ReactJs, Gatsby, and whatever else I find interesting at the moment`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://andymartinez.dev`,
     social: {
       twitter: `amart1751`,
     },
@@ -82,7 +82,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 550,
             },
           },
           {
@@ -105,22 +105,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/projects`,
+        name: `projects`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
+        // tracking id
         trackingId: `G-GK0VJYM6NJ`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Andy Martinez The Sentry`,
+        short_name: `Andy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // edit below
+        // favicon
         icon: `content/assets/favicon.png`,
       },
     },

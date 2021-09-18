@@ -59,7 +59,7 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(24),
+            maxWidth: rhythm(34),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
@@ -75,7 +75,7 @@ class Layout extends React.Component {
           {` `} 
           by 
           {` `} 
-          <a href="https://www.gatsbyjs.org">Andy Martinez</a>
+          <a target="_blank" rel="noopener noreferrer" style={{ color: `#005699` }} href="https://www.linkedin.com/in/amart1751/">Andy Martinez</a>
         </Footer>
       </Wrapper>
     )
